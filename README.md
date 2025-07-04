@@ -1,73 +1,73 @@
-# Welcome to your Lovable project
+# North By West Electric Pvt Ltd - Company Website
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/b06bd11d-fba4-4b09-b068-ed775321f722
+Professional website for North By West Electric Pvt Ltd, showcasing electrical engineering services, products, and company expertise.
 
-## How can I edit this code?
+## Development Setup
 
-There are several ways of editing your application.
+To work on this project locally, follow these steps:
 
-**Use Lovable**
+**Prerequisites**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b06bd11d-fba4-4b09-b068-ed775321f722) and start prompting.
+Make sure you have Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+**Getting Started**
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Available Scripts
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint for code quality
 
-**Use GitHub Codespaces**
+## Technology Stack
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This project is built with modern web technologies:
 
-## What technologies are used for this project?
+- **Vite** - Fast build tool and development server
+- **TypeScript** - Type-safe JavaScript
+- **React** - Frontend library
+- **shadcn/ui** - Component library
+- **Tailwind CSS** - Utility-first CSS framework
 
-This project is built with:
+## Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+This project can be deployed to any static hosting service like:
 
-## How can I deploy this project?
+- Vercel
+- Netlify
+- GitHub Pages
+- AWS S3 + CloudFront
 
-Simply open [Lovable](https://lovable.dev/projects/b06bd11d-fba4-4b09-b068-ed775321f722) and click on Share -> Publish.
+Build the project with `npm run build` and deploy the `dist` folder.
 
-## Can I connect a custom domain to my Lovable project?
+## Project Structure
 
-Yes, you can!
+```
+src/
+├── components/     # React components
+│   ├── ui/        # Reusable UI components
+│   └── ...        # Page-specific components
+├── pages/         # Page components
+├── lib/           # Utility functions
+└── hooks/         # Custom React hooks
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Contact
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+For questions about this project, please contact North By West Electric Pvt Ltd.
